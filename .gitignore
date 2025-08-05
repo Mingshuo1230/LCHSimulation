@@ -1,0 +1,14 @@
+# git rm -r --cached __pycache__/
+# git commit -m "Remove __pycache__ from version control"
+
+# python cache
+__pycache__/
+*.py[cod]
+
+# jupyter cache
+.ipynb_checkpoints/
+
+# virtual environment
+venv/
+.env/
+.env

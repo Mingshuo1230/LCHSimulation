@@ -1,0 +1,12 @@
+# conda env update --file environment.yml --prune
+name: LCHS_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - ipykernel
+  - numpy
+  - pip
+  - pip:
+    - -r requirements.txt

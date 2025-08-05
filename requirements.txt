@@ -1,0 +1,5 @@
+qiskit
+matplotlib
+qiskit-aer
+sympy
+git+https://github.com/PGelss/scikit_tt.git
